@@ -1,0 +1,21 @@
+Write one original one-line dad joke, at most 140 characters, for the
+make.fun competition "The One-Liner Groan-Off" (slug:
+u-alfasurya91-the-one-liner-groan-off-5a1febd5).
+
+The joke must be a pun or twist a dad would tell out loud at the dinner
+table. The judge is an AI model that reads jokes two at a time and picks
+the funnier one, weighing most: (1) it is a one-line dad joke, (2) the
+punchline lands fast and clean with no wasted words, (3) it is fresh
+rather than one everyone has heard a hundred times, (4) the wording is
+tight and rhythmic and easy to say out loud, (5) the groan is earned.
+
+Brief: draft 10 original candidates, score each against those five
+criteria, pick the single best, and write it with a deterministic
+standard-library-only Python program (main.py) that writes the exact
+text to <MAKEFUN_OUTPUT_DIR>/entry.txt (default /output/entry.txt).
+The entry must be 1-140 characters, a single line, UTF-8, not only
+whitespace. Avoid recycled classics (scarecrow, math book, coffee
+mugged, fog/mist, "fully booked" calendar, etc.) and avoid reusing any
+joke from our earlier entries. Aim to beat ~99% of the field: a pun
+that is specific, visual, and fresh, with the twist landing on the
+last words.
